@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
-import '../../../core/extensions/number_extensions.dart';
-import '../../../core/utils/calculators/acquisition_tax_util.dart';
-import '../../saved_calculations/providers/saved_calculation_provider.dart';
-import '../providers/acquisition_tax_provider.dart';
+import 'package:budongsan_app/core/extensions/number_extensions.dart';
+import 'package:budongsan_app/core/utils/calculators/acquisition_tax_util.dart';
+import 'package:budongsan_app/features/saved_calculations/providers/saved_calculation_provider.dart';
+import 'package:budongsan_app/features/acquisition_tax/providers/acquisition_tax_provider.dart';
 
 class AcquisitionTaxScreen extends StatelessWidget {
   const AcquisitionTaxScreen({super.key});

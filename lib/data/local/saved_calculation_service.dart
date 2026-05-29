@@ -1,5 +1,5 @@
 import 'package:hive/hive.dart';
-import '../models/saved_calculation.dart';
+import 'package:budongsan_app/data/models/saved_calculation.dart';
 
 /// Hive 기반 저장된 계산 서비스
 class SavedCalculationService {

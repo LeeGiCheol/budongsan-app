@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:provider/provider.dart';
-import 'app/app.dart';
-import 'features/saved_calculations/providers/saved_calculation_provider.dart';
-import 'features/settings/providers/theme_provider.dart';
+import 'package:budongsan_app/app/app.dart';
+import 'package:budongsan_app/features/saved_calculations/providers/saved_calculation_provider.dart';
+import 'package:budongsan_app/features/settings/providers/theme_provider.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import '../features/settings/providers/theme_provider.dart';
-import 'router.dart';
-import 'theme/app_theme.dart';
+import 'package:budongsan_app/features/settings/providers/theme_provider.dart';
+import 'package:budongsan_app/app/router.dart';
+import 'package:budongsan_app/app/theme/app_theme.dart';
 
 class BudongsanApp extends StatelessWidget {
   const BudongsanApp({super.key});

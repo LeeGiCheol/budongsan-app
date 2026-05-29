@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
-import '../../../core/extensions/number_extensions.dart';
-import '../../../core/utils/calculators/loan_calculator_util.dart';
-import '../../../data/models/saved_calculation.dart';
+import 'package:budongsan_app/core/extensions/number_extensions.dart';
+import 'package:budongsan_app/core/utils/calculators/loan_calculator_util.dart';
+import 'package:budongsan_app/data/models/saved_calculation.dart';
 
 class LoanCalculatorProvider extends ChangeNotifier {
   int _loanAmount = 0;

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
-import '../../../core/extensions/number_extensions.dart';
-import '../../../data/models/saved_calculation.dart';
-import '../providers/saved_calculation_provider.dart';
+import 'package:budongsan_app/core/extensions/number_extensions.dart';
+import 'package:budongsan_app/data/models/saved_calculation.dart';
+import 'package:budongsan_app/features/saved_calculations/providers/saved_calculation_provider.dart';
 
 class SavedCalculationsScreen extends StatefulWidget {
   const SavedCalculationsScreen({super.key});

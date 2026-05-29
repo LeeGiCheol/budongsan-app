@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
-import '../../../data/local/saved_calculation_service.dart';
-import '../../../data/models/saved_calculation.dart';
+import 'package:budongsan_app/data/local/saved_calculation_service.dart';
+import 'package:budongsan_app/data/models/saved_calculation.dart';
 
 class SavedCalculationProvider extends ChangeNotifier {
   final SavedCalculationService _service;

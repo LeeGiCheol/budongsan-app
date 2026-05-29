@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
-import '../../../core/extensions/number_extensions.dart';
-import '../../../core/utils/calculators/acquisition_tax_util.dart';
-import '../../../data/models/saved_calculation.dart';
+import 'package:budongsan_app/core/extensions/number_extensions.dart';
+import 'package:budongsan_app/core/utils/calculators/acquisition_tax_util.dart';
+import 'package:budongsan_app/data/models/saved_calculation.dart';
 
 /// 계산 결과 + 입력 스냅샷을 묶는 모델
 class AcquisitionTaxSnapshot {

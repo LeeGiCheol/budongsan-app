@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import '../features/home/screens/home_screen.dart';
-import '../features/loan_calculator/screens/loan_calculator_screen.dart';
-import '../features/acquisition_tax/screens/acquisition_tax_screen.dart';
-import '../features/monthly_expense/screens/monthly_expense_screen.dart';
-import '../features/cash_flow/screens/cash_flow_screen.dart';
-import '../features/dsr/screens/dsr_screen.dart';
-import '../features/checklist/screens/checklist_screen.dart';
-import '../features/comparison/screens/comparison_screen.dart';
-import '../features/saved_calculations/screens/saved_calculations_screen.dart';
-import '../features/settings/screens/settings_screen.dart';
+import 'package:budongsan_app/features/home/screens/home_screen.dart';
+import 'package:budongsan_app/features/loan_calculator/screens/loan_calculator_screen.dart';
+import 'package:budongsan_app/features/acquisition_tax/screens/acquisition_tax_screen.dart';
+import 'package:budongsan_app/features/monthly_expense/screens/monthly_expense_screen.dart';
+import 'package:budongsan_app/features/cash_flow/screens/cash_flow_screen.dart';
+import 'package:budongsan_app/features/dsr/screens/dsr_screen.dart';
+import 'package:budongsan_app/features/checklist/screens/checklist_screen.dart';
+import 'package:budongsan_app/features/comparison/screens/comparison_screen.dart';
+import 'package:budongsan_app/features/saved_calculations/screens/saved_calculations_screen.dart';
+import 'package:budongsan_app/features/settings/screens/settings_screen.dart';
 
 class AppRouter {
   static final GoRouter router = GoRouter(
